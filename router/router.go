@@ -8,4 +8,5 @@ import (
 
 func Routes(router *gin.Engine) {
 	router.GET("/person/:id/info/", handler.GetData)
+	router.POST("/person/create", handler.CreateData)
 }
