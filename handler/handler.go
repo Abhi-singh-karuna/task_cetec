@@ -1,9 +1,10 @@
 package handler
 
 import (
+	"net/http"
+
 	"github.com/Abhi-singh-karuna/config"
 	"github.com/Abhi-singh-karuna/model"
-	"net/http"
 
 	"github.com/gin-gonic/gin"
 )
